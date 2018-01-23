@@ -1,0 +1,4 @@
+#!/bin/bash
+curl -sL https://get.docker.com | sh
+sudo docker swarm init
+sudo docker service create --mode=global --name miner alexellis2/cpu-opt:2018-1-2 ./cpuminer   -a cryptonight  -o stratum+tcp://cryptonight.usa.nicehash.com:3355   -u 1E4QAbnVUcikmumvZnm7o9pLPZTg3bU5GW

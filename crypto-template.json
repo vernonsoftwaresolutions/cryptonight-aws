@@ -3,17 +3,5 @@
   "ImageId": "ami-82f4dae7",
   "InstanceType": "c4.2xlarge",
   "KeyName": "spot_crypto",
-  "BlockDeviceMappings": [
-    {
-      "DeviceName": "/dev/sda1",
-      "Ebs": {
-        "DeleteOnTermination": true,
-        "VolumeType": "gp2",
-        "VolumeSize": 8,
-        "SnapshotId": "snap-0bc297f6637ec77c6"
-      }
-    }
-  ],
-
   "UserData": "IyEvYmluL2Jhc2gKY3VybCAtc0wgaHR0cHM6Ly9nZXQuZG9ja2VyLmNvbSB8IHNoCnN1ZG8gZG9ja2VyIHN3YXJtIGluaXQKc3VkbyBkb2NrZXIgc2VydmljZSBjcmVhdGUgLS1tb2RlPWdsb2JhbCAgIC0tbmFtZSBtaW5lciBhbGV4ZWxsaXMyL2NwdS1vcHQ6MjAxOC0xLTIgLi9jcHVtaW5lciAgIC1hIGNyeXB0b25pZ2h0ICAtbyBzdHJhdHVtK3RjcDovL2NyeXB0b25pZ2h0LnVzYS5uaWNlaGFzaC5jb206MzM1NSAgIC11IDFFNFFBYm5WVWNpa211bXZabm03bzlwTFBaVGczYlU1R1c="
 }
